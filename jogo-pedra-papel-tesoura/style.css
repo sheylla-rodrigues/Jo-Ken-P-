@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+.tela-jogo {
+    margin: 5%;
+    background-color: #dae5e9;
+    border: rgb(48, 6, 233) dashed;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela td, #tabela th {
+    border: 3px dashed rgb(8, 8, 8);
+    padding: 8px;
+    text-align: center;
+    width: 80px;
+    color: rgb(123, 91, 211);
+    font-size: 20px;
+}
+
+.botao-jogo {
+    width: 100%;
+    color: rgb(221, 13, 13);
+    font-size: 20px;
+    background-color: rgb(250, 248, 248);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.botao-jogo:hover {
+    background-color: #070707;
+}
+
+.titulo {
+    color: rgb(243, 9, 9);
+    font-size: 26px;
+    text-align: center;
+}
+
+#combo-escolha {
+    color: rgb(15, 238, 63);
+    background-color: rgb(250, 245, 245);
+    font-size: 19px;
+    padding: 3px;
+}
+.caixa-jogo {
+
+}
